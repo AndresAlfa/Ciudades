@@ -1,0 +1,29 @@
+:root { 
+    --color_fondo:rgb(145, 97, 177);
+    --color:rgb(236, 7, 7);
+}
+nav {  position: fixed;
+}
+nav li { display: inline-block;
+         background-color: var(--color_fondo);
+        color: var(--color);
+     }   /*menunavegacion para   men element par*/
+nav ul  {list-style: none ;
+        text-align: left;}
+
+h1 {text-align: center;
+    transform: scale(1,-1);}
+
+p {text-align: center;}
+
+h3 {transform: scale(-1,-1);
+  text-align: right;}
+  
+section[name="secc2"] 
+        {text-align: center;}
+area[name="circulo"]:hover 
+{visibility:hidden;}
+
+
+img[name="paris"] 
+    {transform: scale(1,-1);}
